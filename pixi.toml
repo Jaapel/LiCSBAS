@@ -1,0 +1,33 @@
+[project]
+name = "licsbas"
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[dependencies]
+python = ">=3.8"
+astropy = "*"
+beautifulsoup4 = "*"
+gdal = ">=2.4"
+h5py = "*"
+h5netcdf = "*"
+matplotlib = "*"
+numpy = "<2"
+psutil = "*"
+requests = "*"
+shapely = "*"
+statsmodels = "*"
+xarray = "*"
+rioxarray = "*"
+lapack = "*"
+netCDF4 = "*"
+bottleneck = "*"
+colorcet = "*"
+networkx = "*"
+scipy = "*"
+cmcrameri = "*"
+pygmt = "*"
+ipympl = "*"
+jupyterlab = "*"
+
+[activation]
+scripts = ["activate.sh"]

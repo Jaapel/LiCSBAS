@@ -110,3 +110,6 @@ venv.bak/
 .idea/workspace.xml
 
 .vscode/
+
+# pixi
+.pixi
