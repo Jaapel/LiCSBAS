@@ -468,7 +468,7 @@ def get_cmap(cmap_name, cmapN=256):
         if cmap_name.endswith('_r'):
             _cmap = _cmap.reversed()
         try:
-            plt.cm.register_cmap(name = cmap_name, cmap = _cmap)
+            plt.colormaps.register(name = cmap_name, cmap = _cmap)
         except:
             print('WARNING, the colourmap was already registered - not overwriting')
 
